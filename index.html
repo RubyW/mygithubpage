@@ -2,9 +2,133 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Ruby Wang</title>	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="./stylesheets/styles.css">
+	<title>Ruby Wang</title>
 </head>
 <body>
-	<h1> Hello, World! </h1>	
+	<header>
+		<div id="name" class="pull-left">Ruby Wang</div>
+		<div id="info" class="pull-right">
+			<div>TEL: (408) 218-8689</div>
+			<div>EMAIL: rubywang1210@gmail.com</div>
+		</div>
+	</header>
+	<hr>
+	<main>
+		<div class="subheading">TECHNICAL SKILLS</div>
+		<ul>
+			<button class="btn btn-link">Javascript</button>
+			<button class="btn btn-link">HTML/CSS</button>
+			<button class="btn btn-link">Python</button>
+			<button class="btn btn-link">C#</button>
+			<button class="btn btn-link">C++</button>
+			<button class="btn btn-link">Java</button>
+			<button class="btn btn-link">Matlab</button>
+			<button class="btn btn-link">R</button>
+			<button class="btn btn-link">Groovy </button>
+			<button class="btn btn-link">Scheme </button>
+		</ul>
+		
+		<div class="subheading">WORK EXPERIENCE</div>
+		<div id="Sugar_FT" class="position">
+			<span class="positionTitle">Software Engineer</span>
+			<span class="company">SugarCRM</span>
+			<span class="pull-right">
+				<span class="location">Cupertino, CA, USA</span>
+				<span class="timeline">Feb 2014 - Present</span>
+			</span>
+			<ul class="responsibilities list-unstyled">
+				<li>- Enhance core components in the client-side framework for better performance and architecture</li>
+				<li>- Provide leadership through mentoring newcomers and leading team scrums</li>
+				<li>- Implemented support for Right-to-Left languages such as Hebrew and Arabic across the application</li>
+			</ul>
+		</div>
+		<div id="Sugar_intern" class="position">
+			<span class="positionTitle">Software Engineer (Intern)</span>
+			<span class="company">SugarCRM</span>
+			<span class="pull-right">
+				<span class="location">Cupertino, CA, USA</span>
+				<span class="timeline">Apr - Aug 2013</span>
+			</span>
+			<ul class="responsibilities list-unstyled">
+				<li>- Integrated Google's Javascript APIs into various Sugar components</li>
+				<li>- Built multiple contact management web components using Backbone.js</li>
+			</ul>
+		</div>
+		<div id="EC_intern" class="position">
+			<span class="positionTitle">Decision Support Analyst (Intern)</span>
+			<span class="company">Environment Canada</span>
+			<span class="pull-right">
+				<span class="location">Burlington, ON, Canada</span>
+				<span class="timeline">Sept - Dec 2012</span>
+			</span>
+			<ul class="responsibilities list-unstyled">
+				<li>- Developed multiple simulation scenarios using C# and graphed the results through Chart FX</li>
+				<li>- Designed Python scripts to convert land using the ArcGIS API and built a GUI in C# to interact with the scripts</li>
+			</ul>
+		</div>
+		<div id="GM_intern" class="position">
+			<span class="positionTitle">Quality Assurance Analyst (Intern)</span>
+			<span class="company">The Globe and Mail</span>
+			<span class="pull-right">
+				<span class="location">Toronto, ON, Canada</span>
+				<span class="timeline">May - Aug 2012</span>	
+			</span>
+			<ul class="responsibilities list-unstyled">
+				<li>- Developed high level User Acceptance Test Cases for numerous features on the Globe and Mail website</li>
+				<li>- Automated black-box tests with Groovy scripts using the Geb framework</li>
+			</ul>
+		</div>
+		<div id="SAP_intern" class="position">
+			<span class="positionTitle">Open Source Compliance Engineer (Intern)</span>
+			<span class="company">SAP Business Objects</span>
+			<span class="pull-right">
+				<span class="location">Vancouver, BC, Canada</span>
+				<span class="timeline">Jan - Aug 2010</span>
+			</span>
+			<ul class="responsibilities list-unstyled">
+				<li>- Conducted intellectual property audits using BlackDuck Protex</li>
+			</ul>
+		</div>
+		<div class="subheading">PROJECTS</div>
+		<div id="opportunityDiscovery" class="project">
+			<span class="projectName">Opportunity Discovery</span>
+			<span class="projectDate pull-right">Jan 2015</span>
+			<div class="projectDesc">Analyzed past opportunities data and and proposed a way to predict successful future opportunities</div>
+		</div>
+		<div id="imageSegmentation" class="project">
+			<span class="projectName">Image Segmentation as a Classification Problem</span>
+			<span class="projectDate pull-right">Oct - Dec 2013</span>
+			<div class="projectDesc">Proposed an image segmentation method using a combination of unsupervised and supervised learning methods</div>
+		</div>
+		<div id="denoisedImages" class="project">
+			<span class="projectName">Image Denoising</span>
+			<span class="projectDate pull-right">Feb 2013</span>
+			<div class="projectDesc">Denoised images with various iterative methods: Jacobi, Gauss-Seidel, and Conjugate Gradient</div>
+		</div>
+		<div id="heartsGame" class="project">
+			<span class="projectName">Hearts Game</span>
+			<span class="projectDate pull-right">Nov - Dec 2012</span>
+			<div class="projectDesc">Implemented a hearts game using C++</div>
+		</div>
+		<div class="subheading">EDUCATION</div>
+		<div id="waterloo" class="school">
+			<span class="degree">Bachelor of Mathematics</span>
+			<span class="schoolName">University of Waterloo</span>
+			<span class="pull-right">
+				<span class="schoolLocation"> Waterloo, ON, Canada</span>
+				<span class="schoolTimeline">Sept 2008 - Dec 2013</span>
+			</span>
+			<ul class="degrees list-unstyled">
+				<li>- Honours Computational Mathematics</li>
+				<li>- Honours Applied Mathematics</li>
+				<li>- Economics Option</li>
+			</ul>
+		</div>
+	</main>
 </body>
 </html>
